@@ -709,6 +709,8 @@ dependencies = [
 [[package]]
 name = "nu-engine"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bd8c05bbc579270cc037ccea32553ea19aec0d355a659b39dc029174a38917c7"
 dependencies = [
  "nu-glob",
  "nu-path",
@@ -719,10 +721,14 @@ dependencies = [
 [[package]]
 name = "nu-glob"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f99c4b5313cee673237644ea8d5e60992306ee452325388e473e0ec28f4bea28"
 
 [[package]]
 name = "nu-path"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ec3d36a8cfb454e06fc191676bccc67c629373506ba188f9c11706956eb813ee"
 dependencies = [
  "dirs-next",
  "omnipath",
@@ -732,6 +738,8 @@ dependencies = [
 [[package]]
 name = "nu-plugin"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "229ab6cac7946774dd5c626ffe57b079897beb6ad43bc4e9bcfa5a55bcf307d9"
 dependencies = [
  "bincode",
  "log",
@@ -750,6 +758,8 @@ dependencies = [
 [[package]]
 name = "nu-protocol"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8860469803075ffe108f74efbc57edf42f853800eb845ce29efb1d9c09d91ede"
 dependencies = [
  "byte-unit",
  "chrono",
@@ -771,6 +781,8 @@ dependencies = [
 [[package]]
 name = "nu-system"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "80a3fc4b70530667f73622d5eee802684afaf9eefc39ce4fd1b078913c8fe9b7"
 dependencies = [
  "chrono",
  "libc",
@@ -788,11 +800,12 @@ dependencies = [
 [[package]]
 name = "nu-utils"
 version = "0.92.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d30cd61d70368f7c197bc8d1edd894c4828a51e1c78e825f81bf5ff4de182d8b"
 dependencies = [
  "crossterm_winapi",
  "log",
  "lscolors",
- "nix",
  "num-format",
  "strip-ansi-escapes",
  "sys-locale",
